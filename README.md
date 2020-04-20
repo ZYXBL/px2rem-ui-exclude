@@ -1,11 +1,10 @@
-# postcss-px2rem-exclude
+# px2rem-exclude
 
 Based on [postcss-px2rem](https://www.npmjs.com/package/postcss-px2rem) added the exclude folder option.
 
 [![Downloads][downloads-image]][downloads-url]
 
-[downloads-image]: https://img.shields.io/npm/dm/postcss-px2rem-exclude.svg?style=flat-square
-[downloads-url]: https://www.npmjs.com/package/postcss-px2rem-exclude
+[downloads-url]: https://www.npmjs.com/package/px2rem-ui-exclude
 
 ## Useage
 
@@ -13,7 +12,7 @@ Based on [postcss-px2rem](https://www.npmjs.com/package/postcss-px2rem) added th
 ```javascript
 module.exports = {
   'plugins': {
-    'postcss-px2rem-exclude': {
+    'px2rem-ui-exclude': {
       remUnit: 75,
       exclude: /node_modules|folder_name/i
     }
